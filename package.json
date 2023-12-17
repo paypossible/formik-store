@@ -1,6 +1,6 @@
 {
-  "name": "formik-store",
-  "version": "1.0.0",
+  "name": "@paypossible/formik-store",
+  "version": "1.0.1",
   "description": "Persist and populate Formik form using storage of your choice",
   "main": "dist/formik-store.js",
   "source": "src/index.js",
@@ -53,8 +53,8 @@
     "standard": "12.0.1"
   },
   "peerDependencies": {
-    "formik": "^1.5.4 || ^2.0.0",
-    "react": "^16.8.6"
+    "formik": "*",
+    "react": ">=15"
   },
   "dependencies": {
     "debounce-promise": "^3.1.2",
